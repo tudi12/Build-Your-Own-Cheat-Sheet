@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Times New Roman', sans-serif;
+    background-color: gainsboro;
+    text-align: center;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    color: rgba(19, 59, 0, 0.8);
+}
+
+h2 {
+    color: rgb(13, 73, 0);
+    font-size: 36px;
+}
+
+table {
+    border: 2px solid darkgreen; 
+    margin: 0 auto;
+    border-spacing: 0px; 
+    border-collapse: collapse; 
+    width: 80%; 
+    text-align: center;
+    margin-bottom: 50px;
+    cursor: pointer;
+
+}
+
+th {
+    font-weight: bold;
+    border-bottom: 1px solid rgb(0, 10, 0);
+    padding: 8px;
+    background-color: green;
+    font-size: 24px;
+    
+}
+
+tr {
+    background-color: rgb(105, 172, 105);
+}
+
+td {
+    padding: 10px;
+    border: 1px solid darkgreen;
+}
+
+
+tr:nth-of-type(2n+1) {
+    background-color: #e6e6e6;
+}
+  
+tr:hover:nth-of-type(2n+1) {
+    background-color: rgb(204, 250, 22); /* Change the hover background-color of rows here */
+}
+
+tr:hover{
+    background-color: rgb(41, 250, 22) /* Change the hover background-color of rows here */
+}
+
+tr:active:nth-of-type(2n+1) {
+    background-color: rgb(246, 192, 28); /* Change the hover background-color of rows here */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+tr:active{
+    background-color: rgb(246, 235, 28); /* Change the hover background-color of rows here */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+th:active {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+h1:hover {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2:hover {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
